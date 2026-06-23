@@ -1,10 +1,15 @@
-class even{
-    public static void main(String []args){
-        int a=901;
-        //return the last digit of a number
-        int dig=a%10;
-        System.out.println(dig);
-         }
+class even
+{
+    public static void main(String args[])
+    {
+        int a=1;
+        if(a % 2==0)
+        {
+            System.out.println("is even ");
+        }
+        else
+    {
+        System.out.println("is odd");
+    }
 }
-        
-    
+}
