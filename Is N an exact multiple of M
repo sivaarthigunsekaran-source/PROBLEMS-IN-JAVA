@@ -1,0 +1,11 @@
+//Is N an exact multiple of M?
+class mutiple{
+    public static void main(String[]agrs){
+        int n=25;
+        int m=5;
+        if(n%m==0){
+            System.out.println("N an exact multiple of M");
+        }
+        
+    }
+}
