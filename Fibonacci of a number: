@@ -1,5 +1,5 @@
 // Fibonacci of a number: 
-class factnum{
+class fib{
     public static void main(String []args){
         int num =30;
         int a=0,b=1;
