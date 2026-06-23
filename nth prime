@@ -1,0 +1,20 @@
+// nth Prime
+class nthprime{
+    public static void main(String[]args){
+        int n=2,count=0,num=0;
+         while(count<5){
+             num++;
+         int div=0;
+        for(int i=1;i<=num;i++){
+            if(num%i==0){
+            div++;
+            }
+        }
+        if(div==2){
+            count++;
+        }
+       
+    }System.out.println(num);
+}
+    
+}
