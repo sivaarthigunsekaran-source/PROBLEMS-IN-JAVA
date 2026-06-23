@@ -1,0 +1,16 @@
+//Start from 0,1 and move forward until N, final value is in b”
+
+class fibnum {
+    public static void main(String[] args) {
+        int num = 30;
+        int a = 0, b = 1;
+
+        for (int i = 2; i <= num; i++) {
+            int c = a + b;
+            a = b;
+            b = c;
+        }
+
+        System.out.println(b);
+    }
+}
