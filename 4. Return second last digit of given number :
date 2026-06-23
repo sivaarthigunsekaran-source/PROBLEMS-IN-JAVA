@@ -1,0 +1,12 @@
+class lastdigit{
+    public static void main(String []args){
+        int a=901;
+     
+        int dig=a/10;
+          int di=dig%10;
+        
+        System.out.println(di);
+         }
+}
+        
+    
