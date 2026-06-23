@@ -1,0 +1,12 @@
+//Of given 5 numbers, how many are odd?:
+class howmanyodd{
+    public static void main(String []args){
+        int count=0;
+        int zeb[]={6,678,7899,90,33};
+        for(int i=0;i<zeb.length;i++){
+            if(zeb[i]%2!=0){
+                count++;
+            }
+        }System.out.println(count);
+    }
+}
