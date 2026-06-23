@@ -1,4 +1,4 @@
-// Factorial of a number: 
+// Fibonacci of a number: 
 class factnum{
     public static void main(String []args){
         int num =30;
