@@ -1,0 +1,9 @@
+class Sumoflastdigit {
+    public static void main(String []args){
+        int a=6789;
+        int lastdigit=a%10;
+        int secondlastdigit=(a/10)%10;
+        int sum = lastdigit+ secondlastdigit;
+        System.out.println(sum);
+    }
+}
