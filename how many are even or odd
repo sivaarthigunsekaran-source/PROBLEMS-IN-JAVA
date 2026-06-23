@@ -1,0 +1,17 @@
+//Of given 5 numbers, how many are even or odd?:
+class oddoreven{
+    public static void main(String[]args){
+        int oddcount=0,evencount =0;
+        int zeb[]={6,678,7899,90,33};
+        for(int i=0;i<zeb.length;i++)
+        {
+            if(zeb[i]%2!=0){
+                oddcount++;
+            }
+            else
+            evencount++;
+        }
+        System.out.println("odd count:"+oddcount);
+        System.out.println("even count:"+evencount);
+        
+    }
